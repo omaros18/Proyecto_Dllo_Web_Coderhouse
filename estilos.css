@@ -1,0 +1,660 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*COMIENZA ESTILOS PAGINA DE INICIO*/
+
+.body {
+    background-color: rgb(206, 206, 231);
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+    .header {
+        background: #1A1A40;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+
+        .header__menu {
+            background: yellowgreen;
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            justify-content: space-around;
+            border-bottom: 2px solid white;
+            
+        }
+
+            .header__logo {
+                /*background: #7A0BC0;*/
+                display: flex;
+                padding: 10px;
+            }
+
+                .header__img {
+                    /*flex: 1 1 auto;*/
+                    max-width: 55%;
+                    height: auto;
+                    border-radius: 10px;
+                }
+
+            .header__links {
+                /*background: #9C0F48;*/
+                display: flex;
+                width: 60%;
+                justify-content: right;
+            }
+
+                .header__ul {
+                    /*background: #534f3b;*/
+                    width: 100%;
+                    display: flex;
+                    flex-flow: row wrap ;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+                    .header__nav__link {
+                        /*background: #DD4A48;*/
+                        font-family: Arial, Helvetica, sans-serif;
+                        list-style:none ;
+                    }
+
+                    .header__nav__menu {
+                        color: white;
+                        flex-direction: row;
+                        text-decoration: none;
+                        font-size: 1.3rem;
+                    }
+
+                    .header__nav__menu:hover {
+                        background-color: rgb(141, 185, 51);
+                    }
+
+        .main__section {
+            background: url(imagenes/fisioterapia-ppal_auto_x2.jpg) ;
+            display: flex;
+            flex-flow: column wrap;
+            background-position: center;
+            background-attachment: contain;
+            background-size: cover;
+            justify-content: right;
+            border-bottom: 2px solid white;
+        }
+
+            .main__img {
+                
+                display: flex;
+                
+                justify-content: flex-end;
+                
+            }
+
+                .main__parrafo {
+                    height: 70vh;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: #1572A1;
+                    font-size: 2.2vw;
+                    max-width: 40%;
+                    display: flex;
+                    align-items: center;
+                    
+                    
+                }
+
+        .main__sectionPpal {
+            display: flex;
+            height: auto;
+            margin-top: 5em;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            
+            
+        }
+
+        .main__tresimages {
+            background: #1572A1;
+            width: 410px;
+            box-shadow: 1px 8px 5px #444;
+        }
+        
+            .main__sectionPpal__img {
+                width: 100%;
+            }
+
+            .main__sectionPpal__h3-1 {
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 14px;
+                margin-left: 30px;
+                color: white;
+            }
+        
+            .main__sectionPpal__parrafo {
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 1.1em;
+                color: white;
+                padding: 30px;
+                text-align: justify;
+                line-height: 25px;
+            }
+
+    .footer {
+        background: #1A1A40;
+        margin-top: 10%;
+        padding: 1rem 0rem;
+        background: rgb(141, 185, 51);
+    }
+
+        .footer__div {
+            display: flex;
+            flex-flow: row wrap;
+            align-content: center;
+            justify-content: center;
+        }
+
+            .footer__p1 {
+                
+                height: auto;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1em;
+            }
+
+            .footer__image {
+                display: flex;
+                justify-content: center;
+                gap: 2vw;
+            }
+
+                .footer__icon {
+                    width: 2%;
+                }
+
+                #copy {
+                    background:  white;
+                }
+
+
+/*COMIENZA ESTILOS PAGINA DE SERVICIOS*/
+
+.imageneServi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+    .imageneServi__titulo {
+        margin: 2rem 0rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(47, 73, 107);
+        text-align: center;
+}
+
+    .imageneServi__servicios {
+        
+        margin-bottom: 2rem 0rem;
+        box-shadow: 1px 8px 5px #444;
+
+    }
+
+
+
+
+.sectionServi {
+    /*background: #1572A1;*/
+    height: auto;
+    display: flex;
+    margin-top: 7rem;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+    .sectionServi__fotos {
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: space-between;
+
+
+    }
+
+        .sectionServi__img {
+            background: aqua;
+            width: 19%;
+        }
+
+    .sectionServi__article {
+        width: 19%;
+        padding-top: 1em;
+        background: #1572A1;
+        
+    }
+
+    .sectionServi__article__p {
+        width: 80%;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        margin-left: 1.5em;
+        color: white;
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .sectionServi__h4 {
+        margin: 0em 1em;
+        color: white;
+        padding: .5em;
+        text-align: center;
+    }    
+/*}
+
+.section__inicio__img {
+    
+    position: relative;
+    margin-top: 220px;
+    margin-bottom: 0px;
+    box-shadow: 1px 8px 5px #444;*/
+    
+/* }
+
+.section__parrafo {
+    /*padding-top: 150px;
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(30, 96, 128);
+
+}   
+
+.sectionPpal {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.sectionPpal__img1 {
+    width: 400px;
+    height: 350px;
+    box-shadow: 8px 8px 5px #444;
+    filter: brightness(110%);
+}
+
+.sectionPpal__h3-1 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    left: 130px;
+    color: rgb(47, 73, 107);
+    display: inline;
+}
+
+.sectionPpal__parrafo1 {
+    position: absolute;
+    width: 250px;
+    top: 790px;
+    left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(23, 40, 49);
+    text-align: center;
+    display: inline;
+}
+
+.sectionPpal__img2 {
+    width: 400px;
+    height: 350px;
+    margin: 0px opx 0px 0px;
+    filter: brightness(110%);
+    box-shadow: 8px 8px 5px #444;
+}
+
+.sectionPpal__h3-2 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    left: 610px;
+    color: rgb(47, 73, 107);
+    display: inline;
+}
+
+.sectionPpal__parrafo2 {
+    position: absolute;
+    width: 250px;
+    top: 790px;
+    left: 540px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(23, 40, 49);
+    text-align: center;
+    display: inline;
+} 
+
+.sectionPpal__img3 {
+    width: 400px;
+    height: 350px;
+    margin: 0px 0px 0px 0px;
+    box-shadow: 8px 8px 5px #444;
+    filter: brightness(130%);
+}
+
+.sectionPpal__parrafo3 {
+    position: absolute;
+    width: 250px;
+    top: 790px;
+    left: 1020px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(23, 40, 49);
+    text-align: center;
+    display: inline;
+}   
+
+.sectionPpal__h3-3 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    left: 1100px;
+    color: rgb(47, 73, 107);
+    display: inline;
+}
+
+.footer {
+    position: relative;
+    top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 1px ;
+    padding: 20px 0px;
+    background-color: rgb(168, 168, 194) ;
+}
+
+.footer__p1 {
+    text-align: center;
+}
+
+.footer__icon1 {
+    display: inline;
+    width: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 28px;
+    margin-left: 510px;
+}
+
+.footer__icon2 {
+    display: inline;
+    width: 30px;
+    margin: 10px 30px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(47, 73, 107);
+    text-align: center;
+    margin-top: 180px;
+}
+
+.section1S {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section1S__img4 {
+    display: inline-block;
+    width: 250px;
+    box-shadow: 8px 8px 5px #444
+}
+
+h4 {
+    width: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(47, 73, 107);
+    text-align: center;
+    margin: 5px 2px 4px 30px ;
+}
+
+.article {
+    background-color: rgb(159, 159, 209);
+    width: 250px;
+    height: 297px;
+    margin-top: 3px;
+    box-shadow: 8px 8px 5px #444
+}
+
+.article__p {
+    width: 170px;
+    margin: 20px 20px 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageneServi {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+} 
+
+.imageneServi__servicios, .imageneServi__servicios1 {
+    box-shadow: 8px 8px 5px #444
+}
+
+.section__contacto__img {
+    width: 800px;
+    margin: 30px 270px;
+    box-shadow: 8px 8px 5px #444
+}
+
+.grilla {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+        "nav opciones"
+        "nav imagen"
+        "nav calendario" 
+        "nav tabla";
+    grid-template-columns: 300px 612px 337px;
+    grid-template-rows: 410px 170px;
+    grid-gap: 50px;
+}
+
+.opciones {
+    padding-left: 40px;
+    margin-top: 50px;
+    text-align:justify;
+    border: 1px solid rgb(47, 73, 107);
+    box-shadow: 8px 8px 5px #444
+}
+
+.img_pacient {
+    padding-top: 40px;
+}
+
+.header__img__pacientes {
+    box-shadow: 8px 8px 5px #444;
+} 
+
+.img__calendario {
+    padding-top: 40px;
+}
+
+.section__tabla {
+    margin-top: 50px;
+    width: 700px;
+    justify-items: center;
+    margin-left: 305px;
+    text-align: center;
+    padding: 15px;
+}
+
+caption {
+    color: rgb(47, 73, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 70px;
+}
+
+th {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px ;
+    background-color: rgb(52, 37, 148);
+    font-size: 14px;
+}
+
+td {
+    color: rgb(73, 63, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: rgb(237, 236, 245);
+    font-size: 12px;
+}
+
+.ul__pacientes {
+    padding-top: 100px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(47, 73, 107);
+    text-decoration: underline;
+    line-height: 40px;
+}
+
+table {
+    margin: auto;
+    line-height: 25px;
+    word-spacing: .25em;
+    border-collapse: collapse;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#formu {
+    padding-left: 00px ;
+    padding-right: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.formulario__form {
+    /*background: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 49%;
+    margin: 30px;
+    box-shadow: 8px 8px 5px #444
+}
+
+legend {
+    margin-left: 250px;
+    background: rgb(47, 73, 107);
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.formulario #genero {
+    margin-left: 65px;
+    padding: 20px;
+}
+
+.formulario input#generom, input#generof {
+    display: inline;
+    width: 20px;
+    margin-left: 65px;
+}
+
+label {
+    display: block;
+    margin-left: 65px;
+}
+
+input {
+    margin-bottom: 20px;
+    margin-left: 65px;
+    padding: 10px ;
+    width: 80%;
+}
+
+
+textarea {
+    margin-top: 20px;
+    margin-left:   30px;
+    margin-bottom: 20px;
+    width: 600px;
+    min-height: 200px;
+    max-height: 200px;
+    resize: vertical;
+}
+
+input[type="submit"], [type="reset"] {
+    display: inline;
+    background: rgb(47, 73, 107);
+    color: #fff;
+    width: 20%;
+    margin-left: 125px;
+}
+
+input[type="submit"]:hover  {
+    background: rgb(102, 134, 177);
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background: rgb(102, 134, 177);
+    cursor: pointer;
+}
+
+#preguntasFrecu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(47, 73, 107);
+    font-size: 20px;
+    margin-left: 410px;
+    margin-top: 40px;
+}
+
+.preguntas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    padding-right: 20px;
+}
+
+.respuestas {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(47, 73, 107);
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6 {
+    text-decoration: underline;
+    font-weight: bold;
+} 
+
+/*p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+}*/
